@@ -4,4 +4,5 @@ Types::ProjectType = GraphQL::ObjectType.define do
 
   field :id, !types.Int
   field :title, !types.String
+  field :user, Types::UserType
 end
